@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.urna {
+    background-color: rgb(231, 185, 124);
+    padding: 30px;
+    display: flex;
+
+}
+
+.tela {
+    width: 500px;
+    height: 320px;
+    background: linear-gradient(to right, #e8e8e8, #c1c1c1);
+    
+}
+
+.teclado {
+    background-color: dimgray;
+    margin-left: 30px;
+}
+
+.teclado--linha {
+    display: flex;
+    justify-content: center;
+}
+
+.teclado--botao {
+    width: 70px;
+    height: 40px;
+    display: flex;
+    color: rgb(55, 63, 63);
+    background-color: tomato;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 2px 2px 0px #999;
+
+
+}
