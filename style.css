@@ -28,7 +28,7 @@ body {
 }
 
 .teclado {
-  background-color: rgb(65, 59, 30);
+  background-color: rgb(27, 25, 16);
   margin-left: 30px;
 }
 
@@ -137,6 +137,7 @@ body {
 }
 .d-1-image small{
     width:80%;
+    font-size: 12px;
 }
 .d-2 {
   height: 50px;
