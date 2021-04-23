@@ -6,8 +6,38 @@ let lateral = document.querySelector('.d-1-right');
 let numeros = document.querySelector('.d-1-3');
 
 
+let etapaAtual = 0;
+let numero = '';
+
+function inicioEtapa() {
+
+    let etapa = etapas[etapaAtual];
+
+    let numeroHtml ='';
+
+    for(let i=0;i<etapa.numeros;i++){
+         numeroHtml += '<div class="numero"></div>';
+    }
+
+    seuVotoPara.style.display = 'none';
+    cargo.innerHTML = etapa.titulo;
+    descricao.innerHTML ='';
+    aviso.style.display ='none';
+    lateral.innerHTML ='';
+    numeros.innerHTML = numeroHtml;
+
+}
+
+function atualizaInterface(){
+
+}
+
+
 function clicou (n) {
-    alert ('Clicou em ' +n);
+    let numero = document.querySelector('.numero.pisca');
+    if (numero !== null){
+        numero.innerHTML = n;
+    }
 
 }
 
@@ -23,6 +53,8 @@ function corrige () {
 
 function confirma () {
     alert ('Clicou em CONFIRMA!');
-    
+     
 }
 
+
+inicioEtapa ();
