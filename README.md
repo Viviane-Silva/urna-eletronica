@@ -1,2 +1,3 @@
-# urna-eletronica
-javascript
+
+Projeto de uma urna-eletronica
+Contrução em JAVASCRIPT
