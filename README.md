@@ -1,3 +1,5 @@
 
-Projeto de uma urna-eletronica
-Contrução em JAVASCRIPT
+Colocando em prática algumas funções aprendidas durando os estudos!
+#css
+#html
+#javascript
