@@ -135,7 +135,7 @@ body {
 .d-1-image img{
     width:100%;
 }
-.d-1-image small{
+.d-1-image.small{
     width:80%;
     font-size: 12px;
 }
